@@ -1,8 +1,8 @@
 '''
-Name:Favion D., Rabbouni M.,Justin R., Kenny A., Raymond A.
+Name: Favion D., Rabbouni M.,Justin R., Kenny A., Raymond A.
 Date: 5/17/19
 Assignment: Final Project
-'''
+''' 
 import csv
 
 def main():
@@ -17,10 +17,6 @@ def main():
             self.BLK = float(BLK)
             self.PTS = float(PTS)
 
-        #    self.AST = float(AST)
-        #    self.STL = float(STL)
-        #    self.BLK = float(BLK)
-        #    self.PTS = float(PTS)
             if self.DRB == 0 and self.STL == 0 and self.BLK == 0:
                 self.DRB = 0.09
                 self.STK = 0.09
